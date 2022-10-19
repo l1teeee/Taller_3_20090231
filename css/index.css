@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+}
+
+
+body{
+}
+
+#tutu{
+    text-align: center;
+    padding-top: 3vw;
+}
+
+#tutu1{
+    text-align: center;
+    margin: 1vw;
+    font-size: 22px;
+    padding-bottom: 3vw;
+
+}
+
+.cabe{
+    background-color: #DFF6FF;
+}
+
+.main{
+    background-color: #DFF6FF;
+}
+
+
+.main .formu{
+    width: 100%;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+.main .formu #tite{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 2vw;
+}
+
+#but{
+    width: 100%;
+}
+
+#tit2{
+    margin-top: 2vw;
+    background-color: #DFF6FF;
+    text-align: center;
+}
+
+
+.adici{
+    background-color: #DFF6FF;
+    display: flex;
+    gap: 1vw;
+    flex-wrap: wrap;
+}
+
+.modelis{
+    background-color: #DFF6FF;
+    display: flex;
+    gap: 1vw;
+    flex-wrap: wrap;
+}
+
+.modelos{
+    background-color: #DFF6FF;
+    width: 100%;
+}
+
+.modelos .produc{
+    margin: 2vw;
+    align-items: center;
+    background-color: #177824;
+    padding: 30px;
+    width: 18vw;
+    height: auto;
+    border-radius: 15px;
+}
+
+.modelos .produc h1{
+    font-size: 25px;
+    color: #ffffff;
+}
+.modelos .produc h2{
+    font-size: 18px;
+}
+
+
+.produc{
+    margin: 2vw;
+    align-items: center;
+    background-color: #06283D;
+    padding: 30px;
+    width: 18vw;
+    height: auto;
+    border-radius: 15px;
+}
+
+.produc h1{
+    font-size: 25px;
+    color: #ffffff;
+}
+.produc h2{
+    font-size: 18px;
+}
+
+
+.recibo{
+    width: 90%;
+}
+
+/*DROP*/
+
+.dropbtn {
+    background-color: #66ccf5;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 1vw;
+
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #66ccf5;
+}
+
+#btnAgregar{
+    width: 94%;
+    margin-left: 3vw;
+    margin-right: 5vw;
+    margin-bottom: 3vw;
+}

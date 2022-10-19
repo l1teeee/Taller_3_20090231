@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller 3</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body style="background-color: #DFF6FF;">
+    <div class="cabe">
+        <h1 id="tutu">Reparacar</h1>
+        <h2 id="tutu1">Rapidez y buen servicio!</h2>
+    </div>
+
+
+    <div class="main">
+        <div class="formu">
+            <h1 id="tite">Datos del cliente</h1>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Nombre</span>
+                <input type="text" class="form-control" placeholder="Ingrese su nombre" aria-label="Username"
+                    aria-describedby="basic-addon1" id="nombre">
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Dui</span>
+                <input type="text" pattern="^[0-9]{8}-[0-9]{1}$" class="form-control" placeholder="Dui" aria-label="Username"
+                    aria-describedby="basic-addon1" id="dui">
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Nit</span>
+                <input type="text" class="form-control" placeholder="Nit" aria-label="Username"
+                    aria-describedby="basic-addon1" id="nit">
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <h1 id="tit2">Auto</h1>
+
+
+    <div class="main">
+        <div class="formu">
+            <h1 id="tite">Datos del auto</h1>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Marca</span>
+
+                <select name="marca" id="marca" class="form-control"></select>
+            </div>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Modelo</span>
+
+                <select name="modelo" id="modelo" class="form-control"></select>
+            </div>
+
+            
+
+            
+
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Colores</span>
+
+                <select name="colores" id="colores" class="form-control">
+                    <option value="Rojo">Rojo</option>
+                    <option value="Negro">Negro</option>
+                    <option value="Blanco">Blanco</option>
+                    <option value="Amarillo">Amarillo</option>
+                </select>
+            </div>
+
+
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Placa</span>
+                <input type="text" class="form-control" placeholder="Placa del auto" aria-label="Username"
+                    aria-describedby="basic-addon1" id="placa">
+            </div>
+
+            <div class="input-group" style="margin-bottom:1vw;">
+                <span class="input-group-text">Descripción del problema</span>
+                <textarea class="form-control" id="descripcion" aria-label="With textarea"></textarea>
+            </div>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Fecha de ingreso</span>
+
+                <input type="datetime-local" id="year" name="meeting-time" class="form-control"
+                    min="1920-06-07T00:00" max="2023-06-14T00:00">
+            </div>
+            
+
+        </div>
+    </div>
+
+    <button type="button" id="btnAgregar" class="btn btn-info">Guadar datos</button>
+
+
+    <center>
+
+        <div class="recibo">
+            <h1>Clientes</h1>
+
+            <div class="resultado">
+                <div class="row">
+                    <hr>
+                    <h1 class="text-center">Lista de Registros</h1>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Cliente</th>
+                                <th>Nit </th>
+                                <th>Dui </th>
+                                <th>Marca</th>
+                                <th>Modelo</th>
+                                <th>Año</th>
+                                <th>Color</th>
+                                <th>Placa</th>
+                                <th>Fallas</th>
+
+                            </tr>
+                        </thead>
+
+                        <tbody id="tabla">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </center>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
